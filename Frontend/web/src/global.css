@@ -1,0 +1,23 @@
+:root {
+    --main-color: #00174e;
+    --secondary-color: #e0edff;
+    --shadow: rgba(0, 0, 0, 0.16);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.center {
+    width: 94%;
+    max-width: 1140px;
+    margin: 0 auto;
+}

@@ -1,0 +1,108 @@
+.home-container {
+    height: 100vh;
+
+    background-color: var(--secondary-color);
+}
+
+.button-evento {
+    background-color: var(--main-color);
+    color: #fff;
+    width: 227px;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-sair {
+    width: unset;
+    background: transparent;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid var(--main-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.16);
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.item img {
+    max-width: 379px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.right-item {
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    color: var(--main-color);
+}
+
+.lr h1 {
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.lr p {
+    font-size: 14px;
+}
+
+.lr h2 {
+    font-size: 16px;
+}
+
+.ll {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+}
+
+.ll button {
+    border: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+    font-size: 16px;
+    background: none;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.ll button svg {
+    margin-bottom: 5px;
+}
+
+.deletar {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.button-evento {
+    padding: 10px 15px;
+}
+
+.headermain {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}

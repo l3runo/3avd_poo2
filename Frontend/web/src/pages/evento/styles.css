@@ -1,0 +1,79 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--secondary-color);
+}
+
+.container form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-login h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.group label {
+    font-size: 14px;
+}
+
+.group input {
+    font-size: 16px;
+    padding: 7px 15px;
+    margin-top: 5px;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+}
+
+.btnmain {
+    background-color: var(--main-color);
+    color: #fff;
+    width: 227px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.form-evento {
+    width: 360px;
+}
+.form-evento .group,
+.form-evento input {
+    width: 100% !important;
+}
+
+.btnmain {
+    background-color: var(--main-color);
+    color: #fff;
+    width: 360px;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.form-evento a {
+    text-decoration: none;
+    margin-top: 20px;
+    width: unset;
+    background: transparent;
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
